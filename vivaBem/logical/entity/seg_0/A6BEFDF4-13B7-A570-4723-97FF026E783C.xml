@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A6BEFDF4-13B7-A570-4723-97FF026E783C" name="T_VB_BIOTIPO">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-16 22:48:26 UTC</createdTime>
+<ownerDesignName>vivaBem</ownerDesignName>
+<engineerTo>
+<item key="90178D64-F47F-F9F6-9F97-5B311D1466DA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_BIOTIPO" id="1D60B6A2-6D48-E4BE-57F9-EB508C9FCB72">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 00:15:13 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA BIOTIPO]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA BIOTIPO]]></commentInRDBMS>
+<ownerDesignName>vivaBem</ownerDesignName>
+<engineerTo>
+<item key="90178D64-F47F-F9F6-9F97-5B311D1466DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_BIOTIPO" id="9E18669F-88BA-6F9C-7877-D26DD1456D36">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 00:15:29 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DO BIOTIPO, POSSUINDO 200 CARACTERES, DE CUNHO MANDATÓRIO.]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DO BIOTIPO, POSSUINDO 200 CARACTERES, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<ownerDesignName>vivaBem</ownerDesignName>
+<engineerTo>
+<item key="90178D64-F47F-F9F6-9F97-5B311D1466DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESC_BIOTIPO" id="0BBAAEB7-AC2C-2854-5EA2-0FA47B58751C">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 00:15:46 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR A DESCRICAÇÃO  DO BIOTIPO, POSSUINDO 200 CARACTERES, DE CUNHO MANDATÓRIO.]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR A DESCRICAÇÃO  DO BIOTIPO, POSSUINDO 500 CARACTERES, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<ownerDesignName>vivaBem</ownerDesignName>
+<engineerTo>
+<item key="90178D64-F47F-F9F6-9F97-5B311D1466DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EE641AA8-89E5-C585-9664-7FA85FD528D7" name="T_VB_BIOTIPO PK">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 00:15:28 UTC</createdTime>
+<ownerDesignName>vivaBem</ownerDesignName>
+<engineerTo>
+<item key="90178D64-F47F-F9F6-9F97-5B311D1466DA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1D60B6A2-6D48-E4BE-57F9-EB508C9FCB72</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

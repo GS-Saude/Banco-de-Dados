@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F28E15F-9A59-1476-24EB-507A9999E643" name="T_VB_TIPO_TREINO">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<generatorID>3C677A42-684C-4CE0-EE65-8DC6105E3917</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TIPO_TREINO" id="0F1DD3DE-3E4E-3E4D-0167-E275F42EC0C6">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA DO TIPO DE TREINO]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA DO TIPO DE TREINO]]></commentInRDBMS>
+<generatorID>8EB9A9DE-96D5-7AD0-B4E5-17C5D1493579</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_TIPO_TREINO" id="2685E0F0-535C-010C-4BBC-80BB26FBDF47">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DO TIPO  DE TREINO, POSSUINDO 200 CARACTERES, DE CUNHO MANDATÓRIO.]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DO TIPO  DE TREINO, POSSUINDO 200 CARACTERES, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<generatorID>7B38D90E-7B7E-C349-0070-6344D4F87B9A</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESC_TIPO_TREINO" id="82EECE44-9F1F-FF30-A169-82F59B8B7292">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR A DESCRIÇÃO DO TIPO DE  TREINO, POSSUINDO 500 CARACTERES, DE CUNHO MANDATÓRIO.]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR A DESCRIÇÃO DO TIPO DE  TREINO, POSSUINDO 500 CARACTERES, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<generatorID>FBB24B2C-574B-BC1F-73FE-0C0EAD78E42E</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A1C8394-0EE3-9DBE-3593-E2A59411C9AE" name="T_VB_TIPO_TREINO_PK">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<generatorID>9023D3A0-4332-41EB-5F24-FCBF1C18602B</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F1DD3DE-3E4E-3E4D-0167-E275F42EC0C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

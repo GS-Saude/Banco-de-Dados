@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DCBB72FD-931D-CE08-5979-BA5DDB655325" containerWithKeyObject="109F8E86-487D-DDEC-D1F8-579C153295BD" localFKIndex="90878759-7D7C-09D6-4668-69A3827D52D1" name="T_VB_TREINO_T_VB_TIPO_TREINO_FK">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<generatorID>7389F0EE-D2B9-2468-C049-F2D86282F1D9</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<referredTableLongName>T_VB_TIPO_TREINO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3F28E15F-9A59-1476-24EB-507A9999E643</referredTableID>
+<keyObject>2A1C8394-0EE3-9DBE-3593-E2A59411C9AE</keyObject>
+<referredKeyID>2A1C8394-0EE3-9DBE-3593-E2A59411C9AE</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_TIPO_TREINO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

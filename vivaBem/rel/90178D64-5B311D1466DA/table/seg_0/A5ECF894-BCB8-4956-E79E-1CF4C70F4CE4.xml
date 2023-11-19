@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5ECF894-BCB8-4956-E79E-1CF4C70F4CE4" name="T_VB_DIETA">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<generatorID>39C3EFB5-42E0-A584-560D-C9FDB78E6178</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DIETA" id="02023A2F-1087-CE6E-C7ED-F28ACEA26DE8">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA DIETA]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA DIETA]]></commentInRDBMS>
+<generatorID>4734FE9D-CD48-0007-DF44-7AE8352DA2DA</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_DIETA" id="2D9AE885-E71D-46A6-3DE2-C5F7C3510F5E">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DA DIETA, POSSUINDO 200 CARACTERES, DE CUNHO MANDATÓRIO.]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DA DIETA, POSSUINDO 200 CARACTERES, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<generatorID>68203A08-C446-647A-7DFB-6F429EF751AE</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESC_DIETA" id="CA77B48D-4CA3-56F0-9EC0-0D4A42079C4A">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR A DESCRICAÇÃO  DA DIETA, POSSUINDO 500 CARACTERES, DE CUNHO MANDATÓRIO.]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR A DESCRICAÇÃO  DA DIETA, POSSUINDO 500 CARACTERES, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<generatorID>0D29B3D9-C9F0-DE73-25A0-CE0FDDAC8CB0</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E18C6CF-12B4-3481-9394-B8F98E27B8EE" name="T_VB_DIETA_PK">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<generatorID>34F833E9-A674-B475-61D7-A6B1D9FCA4EA</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02023A2F-1087-CE6E-C7ED-F28ACEA26DE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

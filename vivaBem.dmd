@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="vivaBem" id="9B5E6B0E-4719-27B6-F08C-F02172DB8F77" version="3.5">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-16 22:47:43 UTC</createdTime>
+<ownerDesignName>vivaBem</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9B5E6B0E-4719-27B6-F08C-F02172DB8F77</designId>
+</OSDM_Design>

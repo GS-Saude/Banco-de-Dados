@@ -1,0 +1,256 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA3322FA-DEDD-72F2-E916-57AA7A4481AD" name="T_VB_CLIENTE">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<generatorID>A5847856-14F4-87BC-22AA-D883AA908273</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CLIENTE" id="3EDF954E-5338-495A-5A4F-C22F3247B36E">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA CLIENTE]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA CLIENTE]]></commentInRDBMS>
+<generatorID>699A6D82-1130-4DE7-6018-ABC2A837F379</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TREINO" id="95D9D8C1-DF5C-CE82-FBEF-535E38BE79B7">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA TREINO]]></comment>
+<generatorID>1F6B547A-A1A9-2F69-EA15-BAE639BB1075</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2331E87E-4421-607C-2738-B4470BC45159" referredColumn="4B0B61B5-F3C6-BA83-E8E6-874375CE7C8B"/>
+</associations>
+</Column>
+<Column name="ID_BIOTIPO" id="7CDD2ED6-5069-32EA-CB4B-A275BC2AF050">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<generatorID>E8A6C874-C70B-7F2A-589F-D5E4BC59A341</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B658FBD7-A295-E1E0-7948-C01CA6F9DDDA" referredColumn="6E1EEE26-4B09-1939-C94F-1D4B680DC16C"/>
+</associations>
+</Column>
+<Column name="ID_DIETA" id="00D4F5F1-E992-11D7-CABF-902C5048E6FF">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<generatorID>2E8640FF-9C1E-AB8A-746E-571F13B318F2</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B69B8D23-3E11-0213-C3E3-E22889A61256" referredColumn="02023A2F-1087-CE6E-C7ED-F28ACEA26DE8"/>
+</associations>
+</Column>
+<Column name="EMAIL_CLIENTE" id="1AA984BF-3B9D-5422-9E67-A49BFA47AC40">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DO EMAIL DO CLIENTE DE CUNHO MANDATÓRIO.]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DO EMAIL DO CLIENTE DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<generatorID>A117201E-326A-3A27-4EDD-EBAA5B990BEF</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_CLIENTE" id="850A089B-37AA-65AC-94E8-AEBF2AE73185">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DO CLIENTE, POSSUINDO 200 CARACTERES, DE CUNHO MANDATÓRIO.]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DO CLIENTE, POSSUINDO 200 CARACTERES, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<generatorID>DDA7C6E3-E971-FAED-B08F-9C47C88E6B5D</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_NASCIMENTO_CLIENTE" id="D469AA89-2FA0-7BDC-52B8-991162546AEC">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR DATA DE NASCIMENTO DO CLIENTE DE CUNHO MANDATÓRIO.]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR DATA DE NASCIMENTO DO CLIENTE DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<generatorID>A8A31231-C55D-BB81-E838-751DF19D86C2</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALTURA_CLIENTE" id="94F21AEB-0681-C88E-02FF-643BFB43725F">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR A ALTURA DO CLIENTE, POSSUINDO UMA PRESCISÃO DE 3 E ESCALA 2, DE CUNHO MANDATÓRIO.]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR A ALTURA DO CLIENTE, POSSUINDO UMA PRESCISÃO DE 3 E ESCALA 2, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<generatorID>F12AD7F4-98C9-66F7-D55F-0D806A673F57</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESO_CLIENTE" id="E25A9865-15B4-577E-1EFA-6CCA6865AB41">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O PESO  DO CLIENTE, POSSUINDO UMA PRESCISÃO DE 3 E ESCALA 2, DE CUNHO MANDATÓRIO.]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O PESO  DO CLIENTE, POSSUINDO UMA PRESCISÃO DE 3 E ESCALA 2, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<generatorID>D9303B69-42CB-5250-A9CA-A44A0EB221D7</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SENHA_CLIENTE" id="D93C1A8A-2D67-4414-A653-7CB97C9E2024">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DO EMAIL DO CLIENTE DE CUNHO MANDATÓRIO.]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DO EMAIL DO CLIENTE DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<generatorID>F5BFEB2D-29B7-3F54-64E6-C8D63F230979</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_CADASTRO" id="F7F3ABBE-47DA-DDD9-C83A-D00CC7F23D12">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DA DATA E HORARIO DA INSERÇÃO OU ALTERAÇÃO DE DADOS NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DA DATA E HORARIO DA INSERÇÃO OU ALTERAÇÃO DE DADOS NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<generatorID>FBC1ED40-E7D3-9703-A774-DBDFEB672A46</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_USUARIO" id="6D782321-053A-9BD9-EEAC-902A40F1686E">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DO USUARIO QUE FEZ A INSERÇÃO OU ALTERAÇÃO NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DO USUARIO QUE FEZ A INSERÇÃO OU ALTERAÇÃO NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<generatorID>7374F045-262A-C01D-F955-1601E29712A1</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="328353D7-EF92-3EE5-97E3-EB3A6408F1DE" name="T_VB_CLIENTE_PK">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<generatorID>824C34C3-60CE-58C7-58E5-785554787F00</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EDF954E-5338-495A-5A4F-C22F3247B36E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CB58C2C-DA09-79A9-9A9D-48F429EB0299" name="T_VB_CLIENTE_EMAIL_CLIENTE_UN">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<generatorID>5379E208-FDE7-4DC1-0532-D94B77461669</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AA984BF-3B9D-5422-9E67-A49BFA47AC40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6EC6BF4B-7FC9-4BF5-2B28-AFFE39B27EA6" name="T_VB_CLIENTE__IDX">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<ownerDesignName>vivaBem</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A3FD0ED9-7A8C-8699-8E96-DAD14113D744</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="95D9D8C1-DF5C-CE82-FBEF-535E38BE79B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6820EB43-37D4-1E3A-9B69-D8E5313BE5C9" name="T_VB_CLIENTE_T_VB_BIOTIPO_FK">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<generatorID>87E06B2C-B44F-433C-E0FF-8C7C5B1D1F13</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CDD2ED6-5069-32EA-CB4B-A275BC2AF050"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90826ABD-46CD-E5B0-C959-06330CF293E3" name="T_VB_CLIENTE_T_VB_DIETA_FK">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<generatorID>E61C2741-E79F-B94F-9F2F-F678E59C5D9E</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00D4F5F1-E992-11D7-CABF-902C5048E6FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A62D407-D12E-683E-911B-B75C5DB57D8A" name="T_VB_CLIENTE_T_VB_TREINO_FK">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-17 01:42:53 UTC</createdTime>
+<generatorID>A3FD0ED9-7A8C-8699-8E96-DAD14113D744</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95D9D8C1-DF5C-CE82-FBEF-535E38BE79B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
