@@ -1,107 +1,95 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3C677A42-684C-4CE0-EE65-8DC6105E3917" name="T_VB_TP_TREINO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E24AB04A-BE88-8F9C-3EF3-EE4B1909D3CF" name="T_VB_TP_TREINO">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-16 22:48:42 UTC</createdTime>
+<createdTime>2023-11-19 00:58:53 UTC</createdTime>
+<generatorID>3C677A42-684C-4CE0-EE65-8DC6105E3917</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
-<engineerTo>
-<item key="90178D64-F47F-F9F6-9F97-5B311D1466DA" value="true"/>
-</engineerTo>
-<adequatelyNormalized>NO</adequatelyNormalized>
-<expectedVolumes>0</expectedVolumes>
-<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
-<growthPercent>0</growthPercent>
-<growthType>Year</growthType>
-<maxVolumes>9999999</maxVolumes>
-<minVolumes>0</minVolumes>
-<normalForm>Third</normalForm>
-<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_TP_TREINO" id="8EB9A9DE-96D5-7AD0-B4E5-17C5D1493579">
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TP_TREINO" id="09FDCEB8-9E53-4062-1B52-627695B074CF">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-16 23:47:14 UTC</createdTime>
+<createdTime>2023-11-19 00:58:53 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA DO TIPO DE TREINO]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA DO TIPO DE TREINO]]></commentInRDBMS>
+<generatorID>8EB9A9DE-96D5-7AD0-B4E5-17C5D1493579</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
-<engineerTo>
-<item key="90178D64-F47F-F9F6-9F97-5B311D1466DA" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="NM_TP_TREINO" id="7B38D90E-7B7E-C349-0070-6344D4F87B9A">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_TP_TREINO" id="34E481DB-517E-973D-42FE-98B3504326B1">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-16 23:47:34 UTC</createdTime>
+<createdTime>2023-11-19 00:58:53 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DO TIPO  DE TREINO, POSSUINDO 200 CARACTERES, DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DO TIPO  DE TREINO, POSSUINDO 200 CARACTERES, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<generatorID>7B38D90E-7B7E-C349-0070-6344D4F87B9A</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
-<engineerTo>
-<item key="90178D64-F47F-F9F6-9F97-5B311D1466DA" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>200</dataTypeSize>
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="DS_TP_TREINO" id="FBB24B2C-574B-BC1F-73FE-0C0EAD78E42E">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_TP_TREINO" id="44881664-B388-F05D-81FA-8154C786D528">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-16 23:47:53 UTC</createdTime>
+<createdTime>2023-11-19 00:58:53 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR A DESCRIÇÃO DO TIPO DE  TREINO, POSSUINDO 700 CARACTERES, DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR A DESCRIÇÃO DO TIPO DE  TREINO, POSSUINDO 700 CARACTERES, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<generatorID>FBB24B2C-574B-BC1F-73FE-0C0EAD78E42E</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
-<engineerTo>
-<item key="90178D64-F47F-F9F6-9F97-5B311D1466DA" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>700</dataTypeSize>
 <ownDataTypeParameters>700,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="DT_CADASTRO" id="BB0A6A4F-C134-5319-7E59-271D295606B2">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_CADASTRO" id="1759FFCD-CE21-73E5-F18D-755848A99C35">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-18 23:34:38 UTC</createdTime>
+<createdTime>2023-11-19 00:58:53 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DA DATA E HORARIO DA INSERÇÃO OU ALTERAÇÃO DE DADOS NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DA DATA E HORARIO DA INSERÇÃO OU ALTERAÇÃO DE DADOS NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<generatorID>BB0A6A4F-C134-5319-7E59-271D295606B2</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
-<engineerTo>
-<item key="90178D64-F47F-F9F6-9F97-5B311D1466DA" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="NM_USUARIO" id="B99C62D4-3BE7-D612-B7F2-868A6A67A5B8">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_USUARIO" id="1B546A6A-FDF3-ADC1-5D2B-FABA831363AA">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-18 23:34:41 UTC</createdTime>
+<createdTime>2023-11-19 00:58:53 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DO USUARIO QUE FEZ A INSERÇÃO OU ALTERAÇÃO NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DO USUARIO QUE FEZ A INSERÇÃO OU ALTERAÇÃO NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<generatorID>B99C62D4-3BE7-D612-B7F2-868A6A67A5B8</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
-<engineerTo>
-<item key="90178D64-F47F-F9F6-9F97-5B311D1466DA" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>200</dataTypeSize>
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
-</Attribute>
-</attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9023D3A0-4332-41EB-5F24-FCBF1C18602B" name="T_VB_TIPO_TREINO PK">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="673741F5-7C01-3FEC-31B7-1EB831C9C856" name="T_VB_TP_TREINO_PK">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-16 23:47:32 UTC</createdTime>
+<createdTime>2023-11-19 00:58:53 UTC</createdTime>
+<generatorID>9023D3A0-4332-41EB-5F24-FCBF1C18602B</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
-<engineerTo>
-<item key="90178D64-F47F-F9F6-9F97-5B311D1466DA" value="true"/>
-</engineerTo>
 <pk>true</pk>
-<usedAttributes>
-<attributeRef>8EB9A9DE-96D5-7AD0-B4E5-17C5D1493579</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
-</Entity>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09FDCEB8-9E53-4062-1B52-627695B074CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

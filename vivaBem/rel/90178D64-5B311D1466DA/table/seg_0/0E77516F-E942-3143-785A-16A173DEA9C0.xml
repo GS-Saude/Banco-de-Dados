@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E77516F-E942-3143-785A-16A173DEA9C0" name="T_VB_OBJETIVO">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-19 00:58:53 UTC</createdTime>
+<generatorID>1D21E647-72B2-366A-B98E-712052953A07</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_OBJETIVO" id="E2CF5590-B7DD-B624-2DB9-E948F500488D">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-19 00:58:53 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA OBJETIVO]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA OBJETIVO]]></commentInRDBMS>
+<generatorID>9572FBE7-0B62-A342-3230-9D431D5D8996</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_OBJETIVO" id="1FD4D942-B0C3-16FA-7264-A9559642BD3C">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-19 00:58:53 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DO OBJETIVO, POSSUINDO 300 CARACTERES, DE CUNHO MANDATÓRIO.]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DO OBJETIVO, POSSUINDO 300 CARACTERES, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<generatorID>6D321C98-07F5-8DF5-8D50-CF24B0A6667C</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEMPO_OBJETIVO" id="070D5553-2D91-6F41-31D4-263C68B70BF2">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-19 00:58:53 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DO TEMPO DE OBJETIVO DE CUNHO MANDATÓRIO.]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DO TEMPO DE OBJETIVO DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<generatorID>DADD0EDE-9789-D095-0431-4074B69D642B</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESO_OBJETIVO" id="80454F24-329B-716D-406C-D566C50CFD59">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-19 00:58:53 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DO PESO DO OBJETIVO DE CUNHO MANDATÓRIO.]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DO PESO DO OBJETIVO DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<generatorID>980C060C-07F5-8B96-75FB-5167E7350856</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_CADASTRO" id="F11FA6C2-BF8A-40B0-1DCE-C186D00E1C01">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-19 00:58:53 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DA DATA E HORARIO DA INSERÇÃO OU ALTERAÇÃO DE DADOS NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DA DATA E HORARIO DA INSERÇÃO OU ALTERAÇÃO DE DADOS NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<generatorID>94D4E82C-AAB4-09EC-9E7A-632F5988DFCA</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_USUARIO" id="A60E07C3-F7AF-C147-6C4E-C6E21E78A6C0">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-19 00:58:53 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DO USUARIO QUE FEZ A INSERÇÃO OU ALTERAÇÃO NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DO USUARIO QUE FEZ A INSERÇÃO OU ALTERAÇÃO NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<generatorID>2B010FD6-71B9-ADF5-5594-A1DD10AD0873</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C53A85F0-BA02-7757-4E9B-D6F90722A340" name="T_VB_OBJETIVO_PK">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-19 00:58:53 UTC</createdTime>
+<generatorID>49D92348-5931-74C4-F43B-17199C21A88C</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2CF5590-B7DD-B624-2DB9-E948F500488D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

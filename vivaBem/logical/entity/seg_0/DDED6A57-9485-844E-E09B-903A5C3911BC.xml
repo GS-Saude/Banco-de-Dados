@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F43DB98-E455-BFB8-7D31-4C8B3BEA3867" name="T_VB_TREINO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DDED6A57-9485-844E-E09B-903A5C3911BC" name="T_VB_EXERC">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-16 22:49:19 UTC</createdTime>
+<createdTime>2023-11-18 23:39:44 UTC</createdTime>
 <ownerDesignName>vivaBem</ownerDesignName>
 <engineerTo>
 <item key="90178D64-F47F-F9F6-9F97-5B311D1466DA" value="true"/>
@@ -15,11 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_TREINO" id="6D2CD606-DBD8-67FD-8519-7D29F3F06E8F">
+<Attribute name="ID_EXERCICIO" id="B8D981C3-51B5-5DCC-03DB-89FC208D5120">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-16 23:22:03 UTC</createdTime>
-<comment><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA TREINO]]></comment>
-<commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA TREINO]]></commentInRDBMS>
+<createdTime>2023-11-18 23:40:02 UTC</createdTime>
 <ownerDesignName>vivaBem</ownerDesignName>
 <engineerTo>
 <item key="90178D64-F47F-F9F6-9F97-5B311D1466DA" value="true"/>
@@ -30,16 +28,15 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_TP_TREINO" id="28FD6FFD-44BE-1818-D418-003C702D6306">
+<Attribute name="ID_TP_TREINO" id="86C1970F-2CE8-2DD0-D930-705AF4BC6504">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-17 00:39:57 UTC</createdTime>
+<createdTime>2023-11-19 00:17:50 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA DO TIPO DE TREINO]]></comment>
-<generatorID>7389F0EE-D2B9-2468-C049-F2D86282F1D9</generatorID>
+<generatorID>ECD80E2C-1263-B9AB-AB10-AEC4F42EE566</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
 <engineerTo>
 <item key="90178D64-F47F-F9F6-9F97-5B311D1466DA" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <referedAttribute>8EB9A9DE-96D5-7AD0-B4E5-17C5D1493579</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,11 +44,11 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NM_TREINO" id="7C1BD76C-103F-807F-C7B2-0227F000901C">
+<Attribute name="NM_EXERCICIO" id="B4CEFE89-1749-0723-6F16-4378111B8E3F">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-16 23:22:19 UTC</createdTime>
-<comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DO TREINO, POSSUINDO 200 CARACTERES, DE CUNHO MANDATÓRIO.]]></comment>
-<commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DO TREINO, POSSUINDO 200 CARACTERES, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<createdTime>2023-11-18 23:40:28 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DO EXERCICIO, POSSUINDO 300 CARACTERES, DE CUNHO MANDATÓRIO.]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DO EXERCICIO, POSSUINDO 300 CARACTERES, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
 <ownerDesignName>vivaBem</ownerDesignName>
 <engineerTo>
 <item key="90178D64-F47F-F9F6-9F97-5B311D1466DA" value="true"/>
@@ -59,27 +56,57 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DS_TREINO" id="9D96CC49-A8F0-3D20-ECF7-87EE985DD845">
+<Attribute name="SERIES_EXERCICIO" id="1BDB8E84-4BCA-BC70-6B7A-7D4B1E037A8D">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-16 23:23:33 UTC</createdTime>
-<comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR A DESCRIÇÃO DO TREINO, POSSUINDO 700 CARACTERES, DE CUNHO MANDATÓRIO.]]></comment>
-<commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR A DESCRIÇÃO DO TREINO, POSSUINDO 700 CARACTERES, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<createdTime>2023-11-19 00:16:16 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NUMERO DE SERIES DO EXERCICIO, DE CUNHO MANDATÓRIO.]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NUMERO DE SERIES DO EXERCICIO, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
 <ownerDesignName>vivaBem</ownerDesignName>
 <engineerTo>
 <item key="90178D64-F47F-F9F6-9F97-5B311D1466DA" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>700</dataTypeSize>
-<ownDataTypeParameters>700,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DT_CADASTRO" id="660448EB-BC91-9BB7-F3CF-D2082BA93257">
+<Attribute name="REPETICOES_EXERCICIO" id="F30B9F5F-5588-0757-8A50-DB88FA6C2E8B">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-18 23:34:31 UTC</createdTime>
+<createdTime>2023-11-19 00:16:29 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NUMERO DE REPETICOES DO EXERCICIO, DE CUNHO MANDATÓRIO.]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NUMERO DE REPETICOES DO EXERCICIO, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<ownerDesignName>vivaBem</ownerDesignName>
+<engineerTo>
+<item key="90178D64-F47F-F9F6-9F97-5B311D1466DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TEMPO_DESCANSO_EXERCICIO" id="CFE8F6F8-6E0A-6590-5B4F-5B904945E8CE">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-19 00:16:51 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O TEMPO DE DESCANSO DO EXERCICIO, DE CUNHO MANDATÓRIO.]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O TEMPO DE DESCANSO DO EXERCICIO, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<ownerDesignName>vivaBem</ownerDesignName>
+<engineerTo>
+<item key="90178D64-F47F-F9F6-9F97-5B311D1466DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_CADASTRO" id="D53A99DE-FA9A-69B2-17FB-E3A35C9524E8">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-19 00:21:55 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DA DATA E HORARIO DA INSERÇÃO OU ALTERAÇÃO DE DADOS NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DA DATA E HORARIO DA INSERÇÃO OU ALTERAÇÃO DE DADOS NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
 <ownerDesignName>vivaBem</ownerDesignName>
@@ -91,9 +118,9 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NM_USUARIO" id="9BDF8B47-6443-2437-90AB-219A6335F6E1">
+<Attribute name="NM_USUARIO" id="8F323BC7-E986-C6BA-CFE1-544D62F54BDD">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-18 23:34:26 UTC</createdTime>
+<createdTime>2023-11-19 00:21:58 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DO USUARIO QUE FEZ A INSERÇÃO OU ALTERAÇÃO NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DO USUARIO QUE FEZ A INSERÇÃO OU ALTERAÇÃO NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
 <ownerDesignName>vivaBem</ownerDesignName>
@@ -108,16 +135,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="EDA240B9-703C-045C-21EF-4070B28FF6F1" name="T_VB_TREINO PK">
+<identifier id="1765F87C-0DB9-1187-4DF1-8525FDCD6B59" name="T_VB_EXERCICIO PK">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-16 23:22:17 UTC</createdTime>
+<createdTime>2023-11-19 00:18:34 UTC</createdTime>
 <ownerDesignName>vivaBem</ownerDesignName>
 <engineerTo>
 <item key="90178D64-F47F-F9F6-9F97-5B311D1466DA" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>6D2CD606-DBD8-67FD-8519-7D29F3F06E8F</attributeRef>
+<attributeRef>B8D981C3-51B5-5DCC-03DB-89FC208D5120</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
