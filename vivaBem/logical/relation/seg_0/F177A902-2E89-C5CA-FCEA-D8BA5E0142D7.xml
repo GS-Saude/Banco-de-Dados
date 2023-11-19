@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_VB_CLIENTE_DIETA" directorySegmentName="seg_0" id="F177A902-2E89-C5CA-FCEA-D8BA5E0142D7">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-19 20:22:22 UTC</createdTime>
+<ownerDesignName>vivaBem</ownerDesignName>
+<engineerTo>
+<item key="7F5F22AE-64AD-DAE5-F988-04585827579C" value="true"/>
+</engineerTo>
+<sourcePk>436442D4-57C9-5FC3-9535-5705311C8823</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3977E8B0-234A-3F4E-C7C2-305B274657B7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6357F80C-E344-6092-F5E9-2E3B2D399D0F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

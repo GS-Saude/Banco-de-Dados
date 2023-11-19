@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_VB_TP_TR_TREINO" directorySegmentName="seg_0" id="E081C9FF-A5C9-297A-6E6D-60F97C22A31A">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-19 20:22:22 UTC</createdTime>
+<ownerDesignName>vivaBem</ownerDesignName>
+<engineerTo>
+<item key="7F5F22AE-64AD-DAE5-F988-04585827579C" value="true"/>
+</engineerTo>
+<sourcePk>46F4C2AC-9F21-635F-48A2-3AFF1CEB506F</sourcePk>
+<targetPk>F56352E0-B02C-048E-9B00-84B2C21E51DE</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>074DB870-A8B5-9697-922B-63A6634ABD85</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9A294788-63B6-9D8B-3E5C-E467B93B99C4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

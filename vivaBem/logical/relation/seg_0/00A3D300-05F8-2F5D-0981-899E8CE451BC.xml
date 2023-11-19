@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_VB_CLIENTE_TREINO" directorySegmentName="seg_0" id="00A3D300-05F8-2F5D-0981-899E8CE451BC">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-19 20:22:22 UTC</createdTime>
+<ownerDesignName>vivaBem</ownerDesignName>
+<engineerTo>
+<item key="7F5F22AE-64AD-DAE5-F988-04585827579C" value="true"/>
+</engineerTo>
+<sourcePk>46F4C2AC-9F21-635F-48A2-3AFF1CEB506F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>074DB870-A8B5-9697-922B-63A6634ABD85</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>6357F80C-E344-6092-F5E9-2E3B2D399D0F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

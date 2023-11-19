@@ -1,5 +1,5 @@
 -- Gerado por Oracle SQL Developer Data Modeler 22.2.0.165.1149
---   em:        2023-11-18 21:59:00 BRT
+--   em:        2023-11-19 17:23:55 BRT
 --   site:      Oracle Database 11g
 --   tipo:      Oracle Database 11g
 
@@ -34,11 +34,11 @@ ALTER TABLE t_vb_biotipo ADD CONSTRAINT t_vb_biotipo_pk PRIMARY KEY ( id_biotipo
 
 CREATE TABLE t_vb_cliente (
     id_cliente          NUMBER(10) NOT NULL,
+    id_medida           NUMBER(10) NOT NULL,
+    id_objetivo         NUMBER(10) NOT NULL,
     id_treino           NUMBER(10) NOT NULL,
     id_biotipo          NUMBER(10) NOT NULL,
     id_dieta            NUMBER(10) NOT NULL,
-    id_medida           NUMBER(10) NOT NULL,
-    id_objetivo         NUMBER(10) NOT NULL,
     email_cliente       VARCHAR2(100) NOT NULL,
     senha_cliente       VARCHAR2(100) NOT NULL,
     nm_cliente          VARCHAR2(200) NOT NULL,
@@ -99,7 +99,7 @@ ALTER TABLE t_vb_cliente ADD CONSTRAINT t_vb_cliente_email_cliente_un UNIQUE ( e
 CREATE TABLE t_vb_dieta (
     id_dieta    NUMBER(10) NOT NULL,
     nm_dieta    VARCHAR2(200) NOT NULL,
-    ds_dieta    VARCHAR2(700) NOT NULL,
+    ds_dieta    CLOB NOT NULL,
     dt_cadastro DATE NOT NULL,
     nm_usuario  VARCHAR2(200) NOT NULL
 );
@@ -111,7 +111,7 @@ COMMENT ON COLUMN t_vb_dieta.nm_dieta IS
     'ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DA DIETA, POSSUINDO 200 CARACTERES, DE CUNHO MANDATÓRIO.';
 
 COMMENT ON COLUMN t_vb_dieta.ds_dieta IS
-    'ESSE ATRIBUTO SERÁ PARA INSERIR A DESCRICAÇÃO  DA DIETA, POSSUINDO 700 CARACTERES, DE CUNHO MANDATÓRIO.';
+    'ESSE ATRIBUTO SERÁ PARA INSERIR A DESCRICAÇÃO  DA DIETA, DE CUNHO MANDATÓRIO.';
 
 COMMENT ON COLUMN t_vb_dieta.dt_cadastro IS
     'ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DA DATA E HORARIO DA INSERÇÃO OU ALTERAÇÃO DE DADOS NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.'

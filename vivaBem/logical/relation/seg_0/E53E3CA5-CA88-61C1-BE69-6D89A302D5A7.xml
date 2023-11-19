@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_VB_TP_CLIENTE_BIOTIPO" directorySegmentName="seg_0" id="E53E3CA5-CA88-61C1-BE69-6D89A302D5A7">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-19 20:22:22 UTC</createdTime>
+<ownerDesignName>vivaBem</ownerDesignName>
+<engineerTo>
+<item key="7F5F22AE-64AD-DAE5-F988-04585827579C" value="true"/>
+</engineerTo>
+<sourcePk>54CEBD20-E484-D2A5-A23A-68AF16A89D7B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>71488E09-DC7F-252C-0832-AF4D5217B2AC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6357F80C-E344-6092-F5E9-2E3B2D399D0F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
