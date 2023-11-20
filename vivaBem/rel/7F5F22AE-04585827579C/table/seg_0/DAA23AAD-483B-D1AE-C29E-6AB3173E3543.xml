@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="97EA73A7-9BE7-CFBF-3016-B68C18648438" name="T_VB_EXERC">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DAA23AAD-483B-D1AE-C29E-6AB3173E3543" name="T_VB_EXERC">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<createdTime>2023-11-20 02:29:05 UTC</createdTime>
 <generatorID>6F12C837-A68C-9C78-3E44-B3D048A239BA</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_EXERCICIO" id="B0061EDD-E38D-1A13-A212-4EEB786B4B62">
+<Column name="ID_EXERCICIO" id="098AEF37-6AF0-7798-A9C5-094A0F82D63A">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<createdTime>2023-11-20 02:29:05 UTC</createdTime>
 <generatorID>3A976F0E-5297-4815-17B9-1DC4848B9F9B</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ID_TP_TREINO" id="EF28BDCA-3E1F-B6A1-0BBA-08640C675A1D">
+<Column name="ID_TP_TREINO" id="33C0900B-22F0-33E4-6A53-95D7DDBC9276">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<createdTime>2023-11-20 02:29:05 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA DO TIPO DE TREINO]]></comment>
 <generatorID>07C42334-2586-A5FB-23B0-FC7AA507E9C4</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
@@ -34,12 +34,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="E072FE2D-35D1-5C8B-98F7-B97F697BA078" referredColumn="F0D7280F-0811-8094-4FAA-27A3B637D216"/>
+<colAssociation fkAssociation="737B7FD9-0600-2086-E548-EF83491C3444" referredColumn="5FFBC203-57C6-43AA-FA62-9C75B3470B3E"/>
 </associations>
 </Column>
-<Column name="NM_EXERCICIO" id="04B69F47-A2CD-9A20-BF64-BEDF70374C6E">
+<Column name="NM_EXERCICIO" id="26CF99CD-79CF-C105-820D-FF5BEDD2A7B6">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<createdTime>2023-11-20 02:29:05 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DO EXERCICIO, POSSUINDO 300 CARACTERES, DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DO EXERCICIO, POSSUINDO 300 CARACTERES, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>BE078674-75AD-B2AC-D89E-0F9F0902C324</generatorID>
@@ -51,9 +51,9 @@
 <ownDataTypeParameters>300,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="SERIES_EXERCICIO" id="C9F23D3B-DEE9-9C2F-20AD-A792669F6B34">
+<Column name="SERIES_EXERCICIO" id="16EDF5EC-9B3C-577E-D5ED-FE6B6E983F9B">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<createdTime>2023-11-20 02:29:05 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NUMERO DE SERIES DO EXERCICIO, DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NUMERO DE SERIES DO EXERCICIO, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>D4BED7F8-1F1F-142B-D91B-3C0323F6725B</generatorID>
@@ -65,9 +65,9 @@
 <ownDataTypeParameters>,8,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="REPETICOES_EXERCICIO" id="986B4518-163B-1B37-1859-99FEFA288618">
+<Column name="REPETICOES_EXERCICIO" id="056878FD-3DFA-8AEE-EA4A-758E4BBFF657">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<createdTime>2023-11-20 02:29:05 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NUMERO DE REPETICOES DO EXERCICIO, DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NUMERO DE REPETICOES DO EXERCICIO, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>BD6E6BA6-81F7-B97F-5579-045DD0246059</generatorID>
@@ -79,9 +79,9 @@
 <ownDataTypeParameters>,8,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TEMPO_DESCANSO_EXERCICIO" id="C5C6CF98-0582-FE3E-619F-6AB721E9EBBE">
+<Column name="TEMPO_DESCANSO_EXERCICIO" id="D1EA907A-7185-56BF-5AEC-3AEDBEFDBF5D">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<createdTime>2023-11-20 02:29:05 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O TEMPO DE DESCANSO DO EXERCICIO, DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O TEMPO DE DESCANSO DO EXERCICIO, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>AB38AF51-ED4D-AD5D-718B-4900A7CFB7BC</generatorID>
@@ -93,9 +93,9 @@
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DT_CADASTRO" id="98B71D3B-09D0-D812-5765-8DA27327B1FC">
+<Column name="DT_CADASTRO" id="6F4D04BB-0874-5C34-E0D2-98DA0D8F16D3">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<createdTime>2023-11-20 02:29:05 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DA DATA E HORARIO DA INSERÇÃO OU ALTERAÇÃO DE DADOS NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DA DATA E HORARIO DA INSERÇÃO OU ALTERAÇÃO DE DADOS NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>9EBBAC1A-91F2-45C4-9BB5-41C6F618D6FE</generatorID>
@@ -106,9 +106,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NM_USUARIO" id="9AD3337E-6CF8-11C4-1195-25C0AA6EED63">
+<Column name="NM_USUARIO" id="42E8A4AC-5FF3-C0C9-D17C-FB65A3B910AF">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<createdTime>2023-11-20 02:29:05 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DO USUARIO QUE FEZ A INSERÇÃO OU ALTERAÇÃO NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DO USUARIO QUE FEZ A INSERÇÃO OU ALTERAÇÃO NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>F58CAD1F-6FB6-B558-ECD2-53C67EBAF182</generatorID>
@@ -122,27 +122,27 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="4E3E7A04-5991-A5C1-F212-F2A3460D764A" name="T_VB_EXERC_PK">
+<ind_PK_UK id="5EFBB44A-7923-F169-6F04-C74B72170EDB" name="T_VB_EXERC_PK">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<createdTime>2023-11-20 02:29:05 UTC</createdTime>
 <generatorID>102DBDF4-EC77-2610-0DAB-9F371462EBC7</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B0061EDD-E38D-1A13-A212-4EEB786B4B62"/>
+<colUsage columnID="098AEF37-6AF0-7798-A9C5-094A0F82D63A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5436D1F5-955E-6AFC-A5BF-643EB02360B1" name="T_VB_EXERC_T_VB_TP_TREINO_FK">
+<ind_PK_UK id="E49192CD-345A-E6BB-3106-AFEC2D5CB584" name="T_VB_EXERC_T_VB_TP_TREINO_FK">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<createdTime>2023-11-20 02:29:05 UTC</createdTime>
 <generatorID>C891E7C3-9D87-D1EA-CC16-BA93D9960A13</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="EF28BDCA-3E1F-B6A1-0BBA-08640C675A1D"/>
+<colUsage columnID="33C0900B-22F0-33E4-6A53-95D7DDBC9276"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
