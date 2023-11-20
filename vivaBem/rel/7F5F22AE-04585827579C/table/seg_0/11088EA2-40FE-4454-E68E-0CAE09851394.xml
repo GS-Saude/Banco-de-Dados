@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45527FAD-4FCE-26F2-8DA0-2C2EE0FE76F8" name="T_VB_DIETA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11088EA2-40FE-4454-E68E-0CAE09851394" name="T_VB_DIETA">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<createdTime>2023-11-20 02:29:05 UTC</createdTime>
 <generatorID>3977E8B0-234A-3F4E-C7C2-305B274657B7</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_DIETA" id="4E4B2F07-C7E5-D783-97FF-867466A05332">
+<Column name="ID_DIETA" id="06A54D67-29A0-F5AB-2AB0-9E63691C371D">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<createdTime>2023-11-20 02:29:05 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA DIETA]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA DIETA]]></commentInRDBMS>
 <generatorID>0ED5B44D-D8C9-1BFF-3A21-B97EF25BC644</generatorID>
@@ -22,9 +22,9 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NM_DIETA" id="6AC33BF9-DEA9-1617-5A36-CDA718BA7C9F">
+<Column name="NM_DIETA" id="34B12EBD-BAE0-6CEB-539D-10897055434E">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<createdTime>2023-11-20 02:29:05 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DA DIETA, POSSUINDO 200 CARACTERES, DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DA DIETA, POSSUINDO 200 CARACTERES, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>796F4726-E5E2-D1D7-90C0-088E47955F58</generatorID>
@@ -36,9 +36,9 @@
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DS_DIETA" id="E51102FD-6CE5-05B0-A106-5A2FF15E24BE">
+<Column name="DS_DIETA" id="E49C8714-59B7-C960-E58D-52025CF19B95">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<createdTime>2023-11-20 02:29:05 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR A DESCRICAÇÃO  DA DIETA, DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR A DESCRICAÇÃO  DA DIETA, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>4B0D9166-154C-4B14-013E-5664DC2F1EF7</generatorID>
@@ -49,9 +49,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DT_CADASTRO" id="C11BDB1C-8901-BA00-E4CC-44D6199F6D1F">
+<Column name="DT_CADASTRO" id="2862F0C8-EAFA-6F14-4C21-BE53090890EB">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<createdTime>2023-11-20 02:29:05 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DA DATA E HORARIO DA INSERÇÃO OU ALTERAÇÃO DE DADOS NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DA DATA E HORARIO DA INSERÇÃO OU ALTERAÇÃO DE DADOS NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>477DD6FE-D792-791A-B8E6-C2A4B9A7F2AB</generatorID>
@@ -62,9 +62,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NM_USUARIO" id="DCC5C32F-A13C-3A07-8A45-321278611A40">
+<Column name="NM_USUARIO" id="F39BA114-DFE8-9AB7-5600-5BD9ABC17DEA">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<createdTime>2023-11-20 02:29:05 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DO USUARIO QUE FEZ A INSERÇÃO OU ALTERAÇÃO NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DO USUARIO QUE FEZ A INSERÇÃO OU ALTERAÇÃO NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>253D5FCD-2840-7CFA-5A23-60BA02B4146C</generatorID>
@@ -78,16 +78,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="C7AF45A8-08CB-024C-CA77-03BD4360649B" name="T_VB_DIETA_PK">
+<ind_PK_UK id="3C996103-810E-4CDE-BDC0-2CA1C7CEDB29" name="T_VB_DIETA_PK">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<createdTime>2023-11-20 02:29:05 UTC</createdTime>
 <generatorID>436442D4-57C9-5FC3-9535-5705311C8823</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="4E4B2F07-C7E5-D783-97FF-867466A05332"/>
+<colUsage columnID="06A54D67-29A0-F5AB-2AB0-9E63691C371D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

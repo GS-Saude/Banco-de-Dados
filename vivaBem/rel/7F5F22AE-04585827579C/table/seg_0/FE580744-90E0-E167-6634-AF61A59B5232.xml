@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5EBD10D-FC07-ECA8-A7F7-EB12BD1ED611" name="T_VB_BIOTIPO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE580744-90E0-E167-6634-AF61A59B5232" name="T_VB_BIOTIPO">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<createdTime>2023-11-20 02:29:05 UTC</createdTime>
 <generatorID>71488E09-DC7F-252C-0832-AF4D5217B2AC</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_BIOTIPO" id="B9C62789-8DC3-EB32-27BF-2EE736437013">
+<Column name="ID_BIOTIPO" id="C5041E66-6CF9-D868-3122-DC3DA84CE99B">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<createdTime>2023-11-20 02:29:05 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA BIOTIPO]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA BIOTIPO]]></commentInRDBMS>
 <generatorID>550E0388-5200-68AD-2E0F-B6A7797B172C</generatorID>
@@ -22,9 +22,9 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NM_BIOTIPO" id="3E1C8047-06C0-4C57-ABA5-EAFC4AF044E8">
+<Column name="NM_BIOTIPO" id="78942632-26D1-6BC8-F8E9-64471C827B03">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<createdTime>2023-11-20 02:29:05 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DO BIOTIPO, POSSUINDO 200 CARACTERES, DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DO BIOTIPO, POSSUINDO 200 CARACTERES, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>3566AA67-9F32-C599-9BD4-C3D16E832784</generatorID>
@@ -36,9 +36,9 @@
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DS_BIOTIPO" id="2240A127-9AC2-7C37-74D8-1B63A9C61757">
+<Column name="DS_BIOTIPO" id="7EA2B16C-D0B0-EADD-5060-8058E41CDCC8">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<createdTime>2023-11-20 02:29:05 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR A DESCRICAÇÃO  DO BIOTIPO, POSSUINDO 700 CARACTERES, DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR A DESCRICAÇÃO  DO BIOTIPO, POSSUINDO 700 CARACTERES, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>5F2B9585-80CD-BC75-6B75-DC0CC33B0347</generatorID>
@@ -50,9 +50,9 @@
 <ownDataTypeParameters>700,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DT_CADASTRO" id="4043121C-B0F1-2704-120B-DA8163B49D3E">
+<Column name="DT_CADASTRO" id="213D9ECB-F140-2AF0-CB14-DE8C5F8F941E">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<createdTime>2023-11-20 02:29:05 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DA DATA E HORARIO DA INSERÇÃO OU ALTERAÇÃO DE DADOS NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DA DATA E HORARIO DA INSERÇÃO OU ALTERAÇÃO DE DADOS NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>83FA8F60-9AE0-040F-FFFD-CD08988A58DB</generatorID>
@@ -63,9 +63,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NM_USUARIO" id="F30E6C96-BFA6-B213-E081-C8DB34BC5D2A">
+<Column name="NM_USUARIO" id="9BDC024F-5594-CB04-43A5-A13E99E2B184">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<createdTime>2023-11-20 02:29:05 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DO USUARIO QUE FEZ A INSERÇÃO OU ALTERAÇÃO NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DO USUARIO QUE FEZ A INSERÇÃO OU ALTERAÇÃO NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>56787CBE-DC10-5AB5-20C0-62F0A5FA5893</generatorID>
@@ -79,16 +79,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="4654EC1F-E8A3-40A5-878A-1B06CA721F44" name="T_VB_BIOTIPO_PK">
+<ind_PK_UK id="0D87E609-ABFD-C591-AD5B-4F56A9234F55" name="T_VB_BIOTIPO_PK">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<createdTime>2023-11-20 02:29:05 UTC</createdTime>
 <generatorID>54CEBD20-E484-D2A5-A23A-68AF16A89D7B</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B9C62789-8DC3-EB32-27BF-2EE736437013"/>
+<colUsage columnID="C5041E66-6CF9-D868-3122-DC3DA84CE99B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

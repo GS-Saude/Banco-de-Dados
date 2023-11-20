@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="54BE02D0-E9CA-FD15-3238-3F0E9491CF2A" containerWithKeyObject="9A5C4A9D-4AD2-FD2D-23AF-FCD174EB7B84" localFKIndex="B03F13A3-5800-333A-BCB3-921E2782DA44" name="T_VB_CLIENTE_T_VB_DIETA_FK">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-20 02:29:05 UTC</createdTime>
+<generatorID>F177A902-2E89-C5CA-FCEA-D8BA5E0142D7</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<referredTableLongName>T_VB_DIETA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>11088EA2-40FE-4454-E68E-0CAE09851394</referredTableID>
+<keyObject>3C996103-810E-4CDE-BDC0-2CA1C7CEDB29</keyObject>
+<referredKeyID>3C996103-810E-4CDE-BDC0-2CA1C7CEDB29</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_DIETA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

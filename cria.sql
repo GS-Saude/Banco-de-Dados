@@ -1,5 +1,5 @@
 -- Gerado por Oracle SQL Developer Data Modeler 22.2.0.165.1149
---   em:        2023-11-19 23:07:35 BRT
+--   em:        2023-11-19 23:29:56 BRT
 --   site:      Oracle Database 11g
 --   tipo:      Oracle Database 11g
 
@@ -158,7 +158,7 @@ COMMENT ON COLUMN t_vb_exerc.nm_usuario IS
 
 ALTER TABLE t_vb_exerc ADD CONSTRAINT t_vb_exerc_pk PRIMARY KEY ( id_exercicio );
 
-CREATE TABLE t_vb_medidas (
+CREATE TABLE t_vb_medida (
     id_medida                   NUMBER(10) NOT NULL,
     cintura_medida              NUMBER(5, 2),
     torax_medida                NUMBER(5, 2),
@@ -174,51 +174,51 @@ CREATE TABLE t_vb_medidas (
     nm_usuario                  VARCHAR2(200) NOT NULL
 );
 
-COMMENT ON COLUMN t_vb_medidas.id_medida IS
+COMMENT ON COLUMN t_vb_medida.id_medida IS
     'ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA MEDIDA';
 
-COMMENT ON COLUMN t_vb_medidas.cintura_medida IS
+COMMENT ON COLUMN t_vb_medida.cintura_medida IS
     'ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DA MEDIDA DA CINTURA POSSUINDO UMA PRESCISÃO DE 5 E ESCALA 2, DE CUNHO NÃO  MANDATÓRIO.';
 
-COMMENT ON COLUMN t_vb_medidas.torax_medida IS
+COMMENT ON COLUMN t_vb_medida.torax_medida IS
     'ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DA MEDIDA DO TORAX POSSUINDO UMA PRESCISÃO DE 5  E ESCALA 2, DE CUNHO  NÃO  MANDATÓRIO.';
 
-COMMENT ON COLUMN t_vb_medidas.braco_direito_medida IS
+COMMENT ON COLUMN t_vb_medida.braco_direito_medida IS
     'ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DA MEDIDA DO BRACO DIREITO POSSUINDO UMA PRESCISÃO DE 5 E ESCALA 2, DE CUNHO NÃO MANDATÓRIO.';
 
-COMMENT ON COLUMN t_vb_medidas.braco_esquerdo_medida IS
+COMMENT ON COLUMN t_vb_medida.braco_esquerdo_medida IS
     'ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DA MEDIDA DO BRACO ESQUERDO POSSUINDO UMA PRESCISÃO DE 5 E ESCALA 2, DE CUNHO NÃO  MANDATÓRIO.'
     ;
 
-COMMENT ON COLUMN t_vb_medidas.coxa_direita_medida IS
+COMMENT ON COLUMN t_vb_medida.coxa_direita_medida IS
     'ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DA MEDIDA DA COXA DIREITA POSSUINDO UMA PRESCISÃO DE 5 E ESCALA 2, DE CUNHO  NÃO MANDATÓRIO.';
 
-COMMENT ON COLUMN t_vb_medidas.coxa_esquerda_medida IS
+COMMENT ON COLUMN t_vb_medida.coxa_esquerda_medida IS
     'ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DA MEDIDA DA COXA ESQUERDA POSSUINDO UMA PRESCISÃO DE 5 E ESCALA 2, DE CUNHO  NÃO MANDATÓRIO.'
     ;
 
-COMMENT ON COLUMN t_vb_medidas.panturrilha_direita_medida IS
+COMMENT ON COLUMN t_vb_medida.panturrilha_direita_medida IS
     'ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DA MEDIDA DA PANTURRILHA DIREITA POSSUINDO UMA PRESCISÃO DE 5 E ESCALA 2, DE CUNHO  NÃO MANDATÓRIO.'
     ;
 
-COMMENT ON COLUMN t_vb_medidas.panturrilha_esquerda_medida IS
+COMMENT ON COLUMN t_vb_medida.panturrilha_esquerda_medida IS
     'ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DA MEDIDA DA PANTURRILHA DIREITA POSSUINDO UMA PRESCISÃO DE 5 E ESCALA 2, DE CUNHO NÃO MANDATÓRIO.'
     ;
 
-COMMENT ON COLUMN t_vb_medidas.altura_medida IS
+COMMENT ON COLUMN t_vb_medida.altura_medida IS
     'ESSE ATRIBUTO SERÁ PARA INSERIR A MEDIDA DA ALTURA, POSSUINDO UMA PRESCISÃO DE 5 E ESCALA 2, DE CUNHO MANDATÓRIO.';
 
-COMMENT ON COLUMN t_vb_medidas.peso_medida IS
+COMMENT ON COLUMN t_vb_medida.peso_medida IS
     'ESSE ATRIBUTO SERÁ PARA INSERIRA MEDIDA DO PESO, POSSUINDO UMA PRESCISÃO DE 5 E ESCALA 2, DE CUNHO MANDATÓRIO.';
 
-COMMENT ON COLUMN t_vb_medidas.dt_cadastro IS
+COMMENT ON COLUMN t_vb_medida.dt_cadastro IS
     'ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DA DATA E HORARIO DA INSERÇÃO OU ALTERAÇÃO DE DADOS NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.'
     ;
 
-COMMENT ON COLUMN t_vb_medidas.nm_usuario IS
+COMMENT ON COLUMN t_vb_medida.nm_usuario IS
     'ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DO USUARIO QUE FEZ A INSERÇÃO OU ALTERAÇÃO NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.';
 
-ALTER TABLE t_vb_medidas ADD CONSTRAINT t_vb_medidas_pk PRIMARY KEY ( id_medida );
+ALTER TABLE t_vb_medida ADD CONSTRAINT t_vb_medida_pk PRIMARY KEY ( id_medida );
 
 CREATE TABLE t_vb_objetivo (
     id_objetivo    NUMBER(10) NOT NULL,
@@ -312,8 +312,8 @@ ALTER TABLE t_vb_cliente
         REFERENCES t_vb_dieta ( id_dieta );
 
 ALTER TABLE t_vb_cliente
-    ADD CONSTRAINT t_vb_cliente_t_vb_medidas_fk FOREIGN KEY ( id_medida )
-        REFERENCES t_vb_medidas ( id_medida );
+    ADD CONSTRAINT t_vb_cliente_t_vb_medida_fk FOREIGN KEY ( id_medida )
+        REFERENCES t_vb_medida ( id_medida );
 
 ALTER TABLE t_vb_cliente
     ADD CONSTRAINT t_vb_cliente_t_vb_objetivo_fk FOREIGN KEY ( id_objetivo )
