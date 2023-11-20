@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="375CD666-3A39-1689-69D1-8789419F6DBF" name="T_VB_DIETA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99CDBB50-3923-5433-6039-BA5BA1F5A1A9" name="T_VB_BIOTIPO">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 20:23:38 UTC</createdTime>
-<generatorID>3977E8B0-234A-3F4E-C7C2-305B274657B7</generatorID>
+<createdTime>2023-11-19 23:59:01 UTC</createdTime>
+<generatorID>71488E09-DC7F-252C-0832-AF4D5217B2AC</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_DIETA" id="3783787F-1A96-5488-0C10-775A5B1A608C">
+<Column name="ID_BIOTIPO" id="F66DE7E9-41EB-9E77-0BEA-A874628F8B9F">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 20:23:38 UTC</createdTime>
-<comment><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA DIETA]]></comment>
-<commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA DIETA]]></commentInRDBMS>
-<generatorID>0ED5B44D-D8C9-1BFF-3A21-B97EF25BC644</generatorID>
+<createdTime>2023-11-19 23:59:01 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA BIOTIPO]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA BIOTIPO]]></commentInRDBMS>
+<generatorID>550E0388-5200-68AD-2E0F-B6A7797B172C</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -22,12 +22,12 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NM_DIETA" id="60CD99B4-D7D7-FFA7-A65C-C70B2DBCF011">
+<Column name="NM_BIOTIPO" id="B7CFC79B-2822-B399-53EA-48C19D12D281">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 20:23:38 UTC</createdTime>
-<comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DA DIETA, POSSUINDO 200 CARACTERES, DE CUNHO MANDATÓRIO.]]></comment>
-<commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DA DIETA, POSSUINDO 200 CARACTERES, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
-<generatorID>796F4726-E5E2-D1D7-90C0-088E47955F58</generatorID>
+<createdTime>2023-11-19 23:59:01 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DO BIOTIPO, POSSUINDO 200 CARACTERES, DE CUNHO MANDATÓRIO.]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DO BIOTIPO, POSSUINDO 200 CARACTERES, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<generatorID>3566AA67-9F32-C599-9BD4-C3D16E832784</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -36,25 +36,26 @@
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DS_DIETA" id="86986400-B727-2A90-72AA-32CA93636AAE">
+<Column name="DS_BIOTIPO" id="E3EC553E-727D-2072-3602-9CA7FD7195B4">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 20:23:38 UTC</createdTime>
-<comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR A DESCRICAÇÃO  DA DIETA, DE CUNHO MANDATÓRIO.]]></comment>
-<commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR A DESCRICAÇÃO  DA DIETA, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
-<generatorID>4B0D9166-154C-4B14-013E-5664DC2F1EF7</generatorID>
+<createdTime>2023-11-19 23:59:01 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR A DESCRICAÇÃO  DO BIOTIPO, POSSUINDO 700 CARACTERES, DE CUNHO MANDATÓRIO.]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR A DESCRICAÇÃO  DO BIOTIPO, POSSUINDO 700 CARACTERES, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<generatorID>5F2B9585-80CD-BC75-6B75-DC0CC33B0347</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>47823B89-BECE-2D4A-B641-EE3BE6149078</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>700</dataTypeSize>
+<ownDataTypeParameters>700,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DT_CADASTRO" id="4877D422-2B94-10D0-F805-A47AC25275D8">
+<Column name="DT_CADASTRO" id="3EAD8ACA-BA4B-25F0-599F-B2B6520B2ECF">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 20:23:38 UTC</createdTime>
+<createdTime>2023-11-19 23:59:01 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DA DATA E HORARIO DA INSERÇÃO OU ALTERAÇÃO DE DADOS NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DA DATA E HORARIO DA INSERÇÃO OU ALTERAÇÃO DE DADOS NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
-<generatorID>477DD6FE-D792-791A-B8E6-C2A4B9A7F2AB</generatorID>
+<generatorID>83FA8F60-9AE0-040F-FFFD-CD08988A58DB</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -62,12 +63,12 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NM_USUARIO" id="B962056B-DF06-CF64-A775-B8302FC3D21D">
+<Column name="NM_USUARIO" id="F7E43D3B-C9E5-9724-E13D-3944F4D8C78B">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 20:23:38 UTC</createdTime>
+<createdTime>2023-11-19 23:59:01 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DO USUARIO QUE FEZ A INSERÇÃO OU ALTERAÇÃO NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DO USUARIO QUE FEZ A INSERÇÃO OU ALTERAÇÃO NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
-<generatorID>253D5FCD-2840-7CFA-5A23-60BA02B4146C</generatorID>
+<generatorID>56787CBE-DC10-5AB5-20C0-62F0A5FA5893</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -78,16 +79,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="B50DDD84-6056-40CD-8482-E6D90B50E91F" name="T_VB_DIETA_PK">
+<ind_PK_UK id="7A43BDBC-C902-FBF4-6A5E-BB9D4AF55D97" name="T_VB_BIOTIPO_PK">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 20:23:38 UTC</createdTime>
-<generatorID>436442D4-57C9-5FC3-9535-5705311C8823</generatorID>
+<createdTime>2023-11-19 23:59:01 UTC</createdTime>
+<generatorID>54CEBD20-E484-D2A5-A23A-68AF16A89D7B</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3783787F-1A96-5488-0C10-775A5B1A608C"/>
+<colUsage columnID="F66DE7E9-41EB-9E77-0BEA-A874628F8B9F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

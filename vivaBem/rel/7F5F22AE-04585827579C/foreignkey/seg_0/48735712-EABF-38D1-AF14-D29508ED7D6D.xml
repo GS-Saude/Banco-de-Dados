@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="48735712-EABF-38D1-AF14-D29508ED7D6D" containerWithKeyObject="90F0B74E-F2F3-3F3A-676E-C108D1EC8F85" localFKIndex="F402041D-C44D-1AB2-B17D-BDE60A8AC3F9" name="T_VB_CLIENTE_T_VB_BIOTIPO_FK">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-19 23:59:01 UTC</createdTime>
+<generatorID>E53E3CA5-CA88-61C1-BE69-6D89A302D5A7</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<referredTableLongName>T_VB_BIOTIPO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>99CDBB50-3923-5433-6039-BA5BA1F5A1A9</referredTableID>
+<keyObject>7A43BDBC-C902-FBF4-6A5E-BB9D4AF55D97</keyObject>
+<referredKeyID>7A43BDBC-C902-FBF4-6A5E-BB9D4AF55D97</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_BIOTIPO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

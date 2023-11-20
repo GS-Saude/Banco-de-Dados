@@ -1,10 +1,20 @@
 -- Gerado por Oracle SQL Developer Data Modeler 22.2.0.165.1149
---   em:        2023-11-19 17:23:55 BRT
+--   em:        2023-11-19 20:59:21 BRT
 --   site:      Oracle Database 11g
 --   tipo:      Oracle Database 11g
 
 
+CREATE SEQUENCE SQ_VB_BIOTIPO;
+CREATE SEQUENCE SQ_VB_DIETA;
+CREATE SEQUENCE SQ_VB_EXERCICIO;
+CREATE SEQUENCE SQ_VB_MEDIDA;
+CREATE SEQUENCE SQ_VB_TIPO_TREINO;
+CREATE SEQUENCE SQ_VB_TREINO;
+CREATE SEQUENCE SQ_VB_USUARIO;
 
+-- predefined type, no DDL - MDSYS.SDO_GEOMETRY
+
+-- predefined type, no DDL - XMLTYPE
 
 CREATE TABLE t_vb_biotipo (
     id_biotipo  NUMBER(10) NOT NULL,
@@ -248,6 +258,7 @@ ALTER TABLE t_vb_objetivo ADD CONSTRAINT t_vb_objetivo_pk PRIMARY KEY ( id_objet
 
 CREATE TABLE t_vb_tp_treino (
     id_tp_treino NUMBER(10) NOT NULL,
+    id_treino    NUMBER(10) NOT NULL,
     nm_tp_treino VARCHAR2(200) NOT NULL,
     ds_tp_treino VARCHAR2(700) NOT NULL,
     dt_cadastro  DATE NOT NULL,
@@ -273,12 +284,11 @@ COMMENT ON COLUMN t_vb_tp_treino.nm_usuario IS
 ALTER TABLE t_vb_tp_treino ADD CONSTRAINT t_vb_tp_treino_pk PRIMARY KEY ( id_tp_treino );
 
 CREATE TABLE t_vb_treino (
-    id_treino    NUMBER(10) NOT NULL,
-    id_tp_treino NUMBER(10),
-    nm_treino    VARCHAR2(200) NOT NULL,
-    ds_treino    VARCHAR2(700) NOT NULL,
-    dt_cadastro  DATE NOT NULL,
-    nm_usuario   VARCHAR2(200) NOT NULL
+    id_treino   NUMBER(10) NOT NULL,
+    nm_treino   VARCHAR2(200) NOT NULL,
+    ds_treino   VARCHAR2(700) NOT NULL,
+    dt_cadastro DATE NOT NULL,
+    nm_usuario  VARCHAR2(200) NOT NULL
 );
 
 COMMENT ON COLUMN t_vb_treino.id_treino IS
@@ -323,9 +333,9 @@ ALTER TABLE t_vb_exerc
     ADD CONSTRAINT t_vb_exerc_t_vb_tp_treino_fk FOREIGN KEY ( id_tp_treino )
         REFERENCES t_vb_tp_treino ( id_tp_treino );
 
-ALTER TABLE t_vb_treino
-    ADD CONSTRAINT t_vb_treino_t_vb_tp_treino_fk FOREIGN KEY ( id_tp_treino )
-        REFERENCES t_vb_tp_treino ( id_tp_treino );
+ALTER TABLE t_vb_tp_treino
+    ADD CONSTRAINT t_vb_tp_treino_t_vb_treino_fk FOREIGN KEY ( id_treino )
+        REFERENCES t_vb_treino ( id_treino );
 
 
 

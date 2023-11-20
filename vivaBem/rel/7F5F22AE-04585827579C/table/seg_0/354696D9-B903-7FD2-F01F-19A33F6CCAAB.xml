@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C444CECA-4E0C-3DAB-0457-BF38D824D952" name="T_VB_MEDIDAS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="354696D9-B903-7FD2-F01F-19A33F6CCAAB" name="T_VB_MEDIDAS">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 20:23:38 UTC</createdTime>
+<createdTime>2023-11-19 23:59:01 UTC</createdTime>
 <generatorID>258DECF8-680E-5C36-CE5C-9953352728A7</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_MEDIDA" id="DAA4D72A-F4DA-23D4-F16D-EC4D0947E1CF">
+<Column name="ID_MEDIDA" id="26E523E8-44D9-D410-9AF5-109017C150E8">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 20:23:38 UTC</createdTime>
+<createdTime>2023-11-19 23:59:01 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA MEDIDA]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA MEDIDA]]></commentInRDBMS>
 <generatorID>82B9B69C-29EB-607B-6D1F-20F57A8D940F</generatorID>
@@ -22,9 +22,9 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CINTURA_MEDIDA" id="350FDDC9-2E44-E9EF-965E-6238EF744340">
+<Column name="CINTURA_MEDIDA" id="AF596F8C-D57A-C51D-2E49-CAD7CB8681A0">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 20:23:38 UTC</createdTime>
+<createdTime>2023-11-19 23:59:01 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DA MEDIDA DA CINTURA POSSUINDO UMA PRESCISÃO DE 5  E ESCALA 2, DE CUNHO NÃO  MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DA MEDIDA DA CINTURA POSSUINDO UMA PRESCISÃO DE 5 E ESCALA 2, DE CUNHO NÃO  MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>1AB16A98-4295-8E70-86D4-BBE3C8A03863</generatorID>
@@ -38,9 +38,9 @@
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TORAX_MEDIDA" id="27841103-94D0-FD04-EA7F-0CD4EDA9D51C">
+<Column name="TORAX_MEDIDA" id="819B35D5-754B-A6C6-0EF4-A63725DDA07D">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 20:23:38 UTC</createdTime>
+<createdTime>2023-11-19 23:59:01 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DA MEDIDA DO TORAX POSSUINDO UMA PRESCISÃO DE 5 E ESCALA 2, DE CUNHO NÃO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DA MEDIDA DO TORAX POSSUINDO UMA PRESCISÃO DE 5  E ESCALA 2, DE CUNHO  NÃO  MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>103F52D2-486C-0723-D81A-26E346DDD7A0</generatorID>
@@ -54,9 +54,9 @@
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="BRACO_DIREITO_MEDIDA" id="7E9E342F-9AA3-2D5F-C3EF-AA1693485FB8">
+<Column name="BRACO_DIREITO_MEDIDA" id="CD3042E5-39EE-035B-835E-275E09124E35">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 20:23:38 UTC</createdTime>
+<createdTime>2023-11-19 23:59:01 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DA MEDIDA DO BRACO DIREITO POSSUINDO UMA PRESCISÃO DE 5 E ESCALA 2, DE CUNHO NÃO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DA MEDIDA DO BRACO DIREITO POSSUINDO UMA PRESCISÃO DE 5 E ESCALA 2, DE CUNHO NÃO MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>6F3F84EF-1A0C-0B26-D01B-B673C034D2AC</generatorID>
@@ -70,9 +70,9 @@
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="BRACO_ESQUERDO_MEDIDA" id="608D6C41-8009-BD03-0D64-E1BA09A578C2">
+<Column name="BRACO_ESQUERDO_MEDIDA" id="6FD49A3C-0FFF-ED94-E782-240BDDF6BB14">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 20:23:38 UTC</createdTime>
+<createdTime>2023-11-19 23:59:01 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DA MEDIDA DO BRACO ESQUERDO POSSUINDO UMA PRESCISÃO DE 5 E ESCALA 2, DE CUNHO NÃO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DA MEDIDA DO BRACO ESQUERDO POSSUINDO UMA PRESCISÃO DE 5 E ESCALA 2, DE CUNHO NÃO  MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>14A6373E-45E2-DD66-F6E7-699FBF7EDE09</generatorID>
@@ -86,9 +86,9 @@
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COXA_DIREITA_MEDIDA" id="3CA4E1E1-7EBA-8485-7286-B17FC84B2864">
+<Column name="COXA_DIREITA_MEDIDA" id="986D274A-6820-57EF-F976-AC033FCAD4C6">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 20:23:38 UTC</createdTime>
+<createdTime>2023-11-19 23:59:01 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DA MEDIDA DA COXA DIREITA POSSUINDO UMA PRESCISÃO DE 5 E ESCALA 2, DE CUNHO NÃO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DA MEDIDA DA COXA DIREITA POSSUINDO UMA PRESCISÃO DE 5 E ESCALA 2, DE CUNHO  NÃO MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>26BB5AEA-73C6-D6B8-79B4-02BAF421BE65</generatorID>
@@ -102,9 +102,9 @@
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COXA_ESQUERDA_MEDIDA" id="11F781CB-4069-AE2A-7ED4-FD1E57EAB876">
+<Column name="COXA_ESQUERDA_MEDIDA" id="B0FF2C9B-4678-B6AD-C2D8-A8E9264AB1EB">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 20:23:38 UTC</createdTime>
+<createdTime>2023-11-19 23:59:01 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DA MEDIDA DA COXA ESQUERDA POSSUINDO UMA PRESCISÃO DE 5 E ESCALA 2, DE CUNHO NÃO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DA MEDIDA DA COXA ESQUERDA POSSUINDO UMA PRESCISÃO DE 5 E ESCALA 2, DE CUNHO  NÃO MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>ECD750D6-2E52-BB63-F80A-7061A04E70D7</generatorID>
@@ -118,9 +118,9 @@
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PANTURRILHA_DIREITA_MEDIDA" id="B0512710-5F19-3B2F-A043-D8336D3E3271">
+<Column name="PANTURRILHA_DIREITA_MEDIDA" id="E3BBF92B-E669-DD38-F43A-E7BE59A1744C">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 20:23:38 UTC</createdTime>
+<createdTime>2023-11-19 23:59:01 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DA MEDIDA DA PANTURRILHA DIREITA POSSUINDO UMA PRESCISÃO DE 5 E ESCALA 2, DE CUNHO NÃO  MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DA MEDIDA DA PANTURRILHA DIREITA POSSUINDO UMA PRESCISÃO DE 5 E ESCALA 2, DE CUNHO  NÃO MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>2669967A-55D1-0F93-4E33-55D85EF0CD48</generatorID>
@@ -134,9 +134,9 @@
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PANTURRILHA_ESQUERDA_MEDIDA" id="13B762B3-44EB-EB64-24F3-141D81D33F4E">
+<Column name="PANTURRILHA_ESQUERDA_MEDIDA" id="83F4FE7E-7B47-8F3D-AD80-86038F67507B">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 20:23:38 UTC</createdTime>
+<createdTime>2023-11-19 23:59:01 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DA MEDIDA DA PANTURRILHA ESQUERDA POSSUINDO UMA PRESCISÃO DE 5 E ESCALA 2, DE CUNHO  NÃO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DA MEDIDA DA PANTURRILHA DIREITA POSSUINDO UMA PRESCISÃO DE 5 E ESCALA 2, DE CUNHO NÃO MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>79D72447-8002-2337-2CAE-130A339148D8</generatorID>
@@ -150,9 +150,9 @@
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ALTURA_MEDIDA" id="5D6E4A7B-DF51-1449-9A3E-48AA5D4908D6">
+<Column name="ALTURA_MEDIDA" id="58527D91-1780-A7CC-088C-9D0450C23FCF">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 20:23:38 UTC</createdTime>
+<createdTime>2023-11-19 23:59:01 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR A MEDIDA DA ALTURA, POSSUINDO UMA PRESCISÃO DE 5 E ESCALA 2, DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR A MEDIDA DA ALTURA, POSSUINDO UMA PRESCISÃO DE 5 E ESCALA 2, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>3793F519-0CBF-0E1B-963C-7923A3810DB6</generatorID>
@@ -165,9 +165,9 @@
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PESO_MEDIDA" id="F23176B2-8FEF-6947-6F79-90FACB5D38E4">
+<Column name="PESO_MEDIDA" id="ECE7DD73-13F2-4251-A820-91F6D93049AA">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 20:23:38 UTC</createdTime>
+<createdTime>2023-11-19 23:59:01 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIRA MEDIDA DO PESO, POSSUINDO UMA PRESCISÃO DE 5 E ESCALA 2, DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIRA MEDIDA DO PESO, POSSUINDO UMA PRESCISÃO DE 5 E ESCALA 2, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>99C622C6-D567-392F-AA8C-88466CBE9DB3</generatorID>
@@ -180,9 +180,9 @@
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DT_CADASTRO" id="29CF24D4-80B2-667D-E30B-EC5C39BA213C">
+<Column name="DT_CADASTRO" id="C1FEFDA7-6A65-AE18-1B82-F71836DB2386">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 20:23:38 UTC</createdTime>
+<createdTime>2023-11-19 23:59:01 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DA DATA E HORARIO DA INSERÇÃO OU ALTERAÇÃO DE DADOS NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DA DATA E HORARIO DA INSERÇÃO OU ALTERAÇÃO DE DADOS NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>144E8E5A-010E-175F-0BB3-F03700146264</generatorID>
@@ -193,9 +193,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NM_USUARIO" id="29BD3798-3C7D-54AC-A795-E6844E40E900">
+<Column name="NM_USUARIO" id="4C28F808-34A7-FD4F-650A-F6435D508A70">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 20:23:38 UTC</createdTime>
+<createdTime>2023-11-19 23:59:01 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DO USUARIO QUE FEZ A INSERÇÃO OU ALTERAÇÃO NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DO USUARIO QUE FEZ A INSERÇÃO OU ALTERAÇÃO NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>1BF0AC7F-B8AC-8CFC-6C06-468DEB58349F</generatorID>
@@ -209,16 +209,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="FC0F8F8E-B3CE-7389-BB66-6B647F9E9FD3" name="T_VB_MEDIDAS_PK">
+<ind_PK_UK id="A72894B6-3470-958B-5525-5A6146E91BF6" name="T_VB_MEDIDAS_PK">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 20:23:38 UTC</createdTime>
+<createdTime>2023-11-19 23:59:01 UTC</createdTime>
 <generatorID>43A2CC05-A487-CCBC-CB24-7A952332BB6E</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="DAA4D72A-F4DA-23D4-F16D-EC4D0947E1CF"/>
+<colUsage columnID="26E523E8-44D9-D410-9AF5-109017C150E8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
