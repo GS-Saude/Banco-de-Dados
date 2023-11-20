@@ -65,23 +65,6 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_TREINO" id="F5B32282-3525-FD08-E320-FABFB55AB0C1">
-<createdBy>kauez</createdBy>
-<createdTime>2023-11-19 20:22:22 UTC</createdTime>
-<comment><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA TREINO]]></comment>
-<generatorID>00A3D300-05F8-2F5D-0981-899E8CE451BC</generatorID>
-<ownerDesignName>vivaBem</ownerDesignName>
-<importedID>58056355-5765-2BA6-8FF6-6D8EA41261D0</importedID>
-<engineerTo>
-<item key="7F5F22AE-64AD-DAE5-F988-04585827579C" value="true"/>
-</engineerTo>
-<referedAttribute>070B3566-5EAC-619D-6345-DBC9C854D2B1</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="ID_BIOTIPO" id="AD8F67AD-A0FD-4672-CE5D-C7EED8EBA4B1">
 <createdBy>kauez</createdBy>
 <createdTime>2023-11-19 20:22:22 UTC</createdTime>
@@ -115,6 +98,22 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_TREINO" id="949FF5F6-5927-72D3-830B-000DD2608E01">
+<createdBy>kauez</createdBy>
+<createdTime>2023-11-20 02:06:42 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA TREINO]]></comment>
+<generatorID>A0D003BD-2133-9F74-58E4-DAD916499595</generatorID>
+<ownerDesignName>vivaBem</ownerDesignName>
+<engineerTo>
+<item key="7F5F22AE-64AD-DAE5-F988-04585827579C" value="true"/>
+</engineerTo>
+<referedAttribute>070B3566-5EAC-619D-6345-DBC9C854D2B1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="EMAIL_CLIENTE" id="1B38D1BA-4082-ED90-13FB-08DF62D8388A">
 <createdBy>kauez</createdBy>

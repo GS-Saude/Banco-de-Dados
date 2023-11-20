@@ -1,8 +1,7 @@
 -- Gerado por Oracle SQL Developer Data Modeler 22.2.0.165.1149
---   em:        2023-11-19 20:59:21 BRT
+--   em:        2023-11-19 23:07:35 BRT
 --   site:      Oracle Database 11g
 --   tipo:      Oracle Database 11g
-
 
 CREATE SEQUENCE SQ_VB_BIOTIPO;
 CREATE SEQUENCE SQ_VB_DIETA;
@@ -46,9 +45,9 @@ CREATE TABLE t_vb_cliente (
     id_cliente          NUMBER(10) NOT NULL,
     id_medida           NUMBER(10) NOT NULL,
     id_objetivo         NUMBER(10) NOT NULL,
-    id_treino           NUMBER(10) NOT NULL,
     id_biotipo          NUMBER(10) NOT NULL,
     id_dieta            NUMBER(10) NOT NULL,
+    id_treino           NUMBER(10) NOT NULL,
     email_cliente       VARCHAR2(100) NOT NULL,
     senha_cliente       VARCHAR2(100) NOT NULL,
     nm_cliente          VARCHAR2(200) NOT NULL,
@@ -95,11 +94,6 @@ CREATE UNIQUE INDEX t_vb_cliente__idx ON
 CREATE UNIQUE INDEX t_vb_cliente__idxv1 ON
     t_vb_cliente (
         id_objetivo
-    ASC );
-
-CREATE UNIQUE INDEX t_vb_cliente__idxv2 ON
-    t_vb_cliente (
-        id_treino
     ASC );
 
 ALTER TABLE t_vb_cliente ADD CONSTRAINT t_vb_cliente_pk PRIMARY KEY ( id_cliente );
@@ -342,7 +336,7 @@ ALTER TABLE t_vb_tp_treino
 -- Relatório do Resumo do Oracle SQL Developer Data Modeler: 
 -- 
 -- CREATE TABLE                             8
--- CREATE INDEX                             3
+-- CREATE INDEX                             2
 -- ALTER TABLE                             16
 -- CREATE VIEW                              0
 -- ALTER VIEW                               0

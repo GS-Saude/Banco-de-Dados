@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC1795D5-0D5B-2029-3115-EB3196899315" name="T_VB_DIETA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="124BF0E6-24D3-0D92-8467-4DF01C70B1F1" name="T_VB_TREINO">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 23:59:01 UTC</createdTime>
-<generatorID>3977E8B0-234A-3F4E-C7C2-305B274657B7</generatorID>
+<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<generatorID>074DB870-A8B5-9697-922B-63A6634ABD85</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_DIETA" id="EF1DFF32-0FB3-7DFE-656A-3404DB4BAFD9">
+<Column name="ID_TREINO" id="7E8BF6FD-C795-AA3D-016F-8DC781BB05BB">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 23:59:01 UTC</createdTime>
-<comment><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA DIETA]]></comment>
-<commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA DIETA]]></commentInRDBMS>
-<generatorID>0ED5B44D-D8C9-1BFF-3A21-B97EF25BC644</generatorID>
+<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA TREINO]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA TREINO]]></commentInRDBMS>
+<generatorID>070B3566-5EAC-619D-6345-DBC9C854D2B1</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -22,12 +22,12 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NM_DIETA" id="924B9ADE-CFC5-8934-056B-00B7E84DE5B5">
+<Column name="NM_TREINO" id="C025C3E5-738C-BC55-B95F-A2167F2693F8">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 23:59:01 UTC</createdTime>
-<comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DA DIETA, POSSUINDO 200 CARACTERES, DE CUNHO MANDATÓRIO.]]></comment>
-<commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DA DIETA, POSSUINDO 200 CARACTERES, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
-<generatorID>796F4726-E5E2-D1D7-90C0-088E47955F58</generatorID>
+<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DO TREINO, POSSUINDO 200 CARACTERES, DE CUNHO MANDATÓRIO.]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DO TREINO, POSSUINDO 200 CARACTERES, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<generatorID>104FDEBD-D7F1-EEC5-C5F9-6C1252A2AB26</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -36,25 +36,26 @@
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DS_DIETA" id="80AF835B-07D0-3F40-5371-F17E17D7BF43">
+<Column name="DS_TREINO" id="96AA9BA7-A110-89FA-F806-20DC1AEBDEFC">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 23:59:01 UTC</createdTime>
-<comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR A DESCRICAÇÃO  DA DIETA, DE CUNHO MANDATÓRIO.]]></comment>
-<commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR A DESCRICAÇÃO  DA DIETA, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
-<generatorID>4B0D9166-154C-4B14-013E-5664DC2F1EF7</generatorID>
+<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR A DESCRIÇÃO DO TREINO, POSSUINDO 700 CARACTERES, DE CUNHO MANDATÓRIO.]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR A DESCRIÇÃO DO TREINO, POSSUINDO 700 CARACTERES, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
+<generatorID>9159B9C9-4D6C-DB4A-7F64-CDA3E42D03D4</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>47823B89-BECE-2D4A-B641-EE3BE6149078</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>700</dataTypeSize>
+<ownDataTypeParameters>700,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DT_CADASTRO" id="D7DB1732-221C-4A55-00E4-C63C406B742A">
+<Column name="DT_CADASTRO" id="B9C9E8A4-D9FF-ECA8-F433-363176FD1CF5">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 23:59:01 UTC</createdTime>
+<createdTime>2023-11-20 02:07:22 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DA DATA E HORARIO DA INSERÇÃO OU ALTERAÇÃO DE DADOS NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DA DATA E HORARIO DA INSERÇÃO OU ALTERAÇÃO DE DADOS NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
-<generatorID>477DD6FE-D792-791A-B8E6-C2A4B9A7F2AB</generatorID>
+<generatorID>261A4E6B-4CAB-FD03-DCF6-D54BCEC1ACF3</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -62,12 +63,12 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NM_USUARIO" id="54828844-E839-8495-58F8-1E7CE830C897">
+<Column name="NM_USUARIO" id="A9E820A0-EDF0-19EE-60B5-79B2F077D4D4">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 23:59:01 UTC</createdTime>
+<createdTime>2023-11-20 02:07:22 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DO USUARIO QUE FEZ A INSERÇÃO OU ALTERAÇÃO NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DO USUARIO QUE FEZ A INSERÇÃO OU ALTERAÇÃO NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
-<generatorID>253D5FCD-2840-7CFA-5A23-60BA02B4146C</generatorID>
+<generatorID>85CE4C5D-58C4-2DF9-4403-9EB4A2BFD2A3</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -78,16 +79,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="42FA7704-2089-41FF-0A09-D952CBA60391" name="T_VB_DIETA_PK">
+<ind_PK_UK id="247C2640-EDDD-6A51-5C66-E974D2CB3FCF" name="T_VB_TREINO_PK">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 23:59:01 UTC</createdTime>
-<generatorID>436442D4-57C9-5FC3-9535-5705311C8823</generatorID>
+<createdTime>2023-11-20 02:07:22 UTC</createdTime>
+<generatorID>46F4C2AC-9F21-635F-48A2-3AFF1CEB506F</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="EF1DFF32-0FB3-7DFE-656A-3404DB4BAFD9"/>
+<colUsage columnID="7E8BF6FD-C795-AA3D-016F-8DC781BB05BB"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

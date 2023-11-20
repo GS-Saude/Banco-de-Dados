@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="551196CE-4657-1A26-240F-97373A9E735C" name="T_VB_OBJETIVO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA08E80D-F5FA-0CAE-7BEA-9401D4FF9759" name="T_VB_OBJETIVO">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 23:59:01 UTC</createdTime>
+<createdTime>2023-11-20 02:07:22 UTC</createdTime>
 <generatorID>FF385A73-5A96-17F4-A880-3C23BB0BA4A9</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_OBJETIVO" id="6F23495A-67A3-5192-EB73-229893F01437">
+<Column name="ID_OBJETIVO" id="FA3E1DC6-A846-4B5E-19EA-F89FEB5C77D6">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 23:59:01 UTC</createdTime>
+<createdTime>2023-11-20 02:07:22 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA OBJETIVO]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ COMO DEVER, SERVIR COMO IDENTIFICAÇÃO DA TABELA OBJETIVO]]></commentInRDBMS>
 <generatorID>5B65EC74-32A4-A8D9-E09F-3D071933BA38</generatorID>
@@ -22,9 +22,9 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NM_OBJETIVO" id="1AF3E7BD-577C-F893-4F98-F6CAFA5222A6">
+<Column name="NM_OBJETIVO" id="E5F85B2B-366F-51F2-9C23-DDD76F3C5A47">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 23:59:01 UTC</createdTime>
+<createdTime>2023-11-20 02:07:22 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DO OBJETIVO, POSSUINDO 300 CARACTERES, DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO SERÁ PARA INSERIR O NOME DO OBJETIVO, POSSUINDO 300 CARACTERES, DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>6604C51A-287B-0670-A7C0-A171BD35119B</generatorID>
@@ -36,9 +36,9 @@
 <ownDataTypeParameters>300,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TEMPO_OBJETIVO" id="0F6B414D-EBF6-D466-52D3-890D3DDFC190">
+<Column name="TEMPO_OBJETIVO" id="40C229D4-6E15-7783-CAD5-BB171A8D3739">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 23:59:01 UTC</createdTime>
+<createdTime>2023-11-20 02:07:22 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DO TEMPO DE OBJETIVO DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DO TEMPO DE OBJETIVO DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>3CD5C785-8675-4D27-974A-E699C3BCB8BA</generatorID>
@@ -49,9 +49,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PESO_OBJETIVO" id="91B6A087-2BE7-79AA-CC27-08CFDEF5FD9E">
+<Column name="PESO_OBJETIVO" id="3C62627D-07CB-B198-CBE4-19E47328BCAF">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 23:59:01 UTC</createdTime>
+<createdTime>2023-11-20 02:07:22 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DO PESO DO OBJETIVO DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO TERÁ AS INFORMAÇÕES DO PESO DO OBJETIVO DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>0BA9A967-84BD-F1A1-CD76-C317BC8F4C44</generatorID>
@@ -64,9 +64,9 @@
 <ownDataTypeParameters>,9,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DT_CADASTRO" id="A1CCDA8D-214F-0897-6463-DCC9DBD90B54">
+<Column name="DT_CADASTRO" id="B76AB06C-6140-A1B6-FCDE-F7E6D269CFA2">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 23:59:01 UTC</createdTime>
+<createdTime>2023-11-20 02:07:22 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DA DATA E HORARIO DA INSERÇÃO OU ALTERAÇÃO DE DADOS NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DA DATA E HORARIO DA INSERÇÃO OU ALTERAÇÃO DE DADOS NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>01C28009-7EAD-822B-A987-B87B68EFE7F4</generatorID>
@@ -77,9 +77,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NM_USUARIO" id="673685C4-5EE6-99E8-EDEC-5742E4981308">
+<Column name="NM_USUARIO" id="B9E1ECAB-0FA8-2465-1C30-F98D4505F89B">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 23:59:01 UTC</createdTime>
+<createdTime>2023-11-20 02:07:22 UTC</createdTime>
 <comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DO USUARIO QUE FEZ A INSERÇÃO OU ALTERAÇÃO NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></comment>
 <commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES DO USUARIO QUE FEZ A INSERÇÃO OU ALTERAÇÃO NESSA TABELA E SERÁ DE CUNHO MANDATÓRIO.]]></commentInRDBMS>
 <generatorID>18A7529E-D8BD-580A-F513-AE1A0B15D6DF</generatorID>
@@ -93,16 +93,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="A76C5CD4-3072-844E-AE97-B57355DA7775" name="T_VB_OBJETIVO_PK">
+<ind_PK_UK id="1C3181CD-17F0-457E-0420-439A8F669607" name="T_VB_OBJETIVO_PK">
 <createdBy>kauez</createdBy>
-<createdTime>2023-11-19 23:59:01 UTC</createdTime>
+<createdTime>2023-11-20 02:07:22 UTC</createdTime>
 <generatorID>9C8819C3-4E31-A02B-5EF0-24494F9A51DD</generatorID>
 <ownerDesignName>vivaBem</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6F23495A-67A3-5192-EB73-229893F01437"/>
+<colUsage columnID="FA3E1DC6-A846-4B5E-19EA-F89FEB5C77D6"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
