@@ -30,9 +30,245 @@ INSERT INTO T_VB_MEDIDAS VALUES (20, 78.2, 93.7, 29.8, 29.3, 55.3, 54.8, 35.3, 3
 
 
 -- DIETA
-INSERT INTO T_VB_DIETA VALUES(1, 'Emagrecimento', '{"desc_dieta": [{"nm_refeicao": "Café da manhã", "desc_refeicao": {"nm_alimento": "Ovos", "desc_alimento": "Ovos cozidos", "qtd_alimento": "2", "un_medida": "unidade", "calorias": "150", "proteinas": "10", "carboidratos": "10", "gorduras": "10"}}, {"nm_refeicao": "Almoço", "desc_refeicao": {"nm_alimento": "Peito de Frango", "desc_alimento": "Peito de frango grelhado", "qtd_alimento": "1", "un_medida": "peito", "calorias": "150", "proteinas": "10", "carboidratos": "10", "gorduras": "10"}}, {"nm_refeicao": "Janta", "desc_refeicao": {"nm_alimento": "Carne Magra", "desc_alimento": "Carne magra assada", "qtd_alimento": "1", "un_medida": "bife", "calorias": "150", "proteinas": "10", "carboidratos": "10", "gorduras": "10"}}]}', TO_DATE(SYSDATE, 'DD/MM/YYYY'), USER);
-INSERT INTO T_VB_DIETA VALUES(2, 'Ganho de Músculo', '{"desc_dieta": [{"nm_refeicao": "Café da manhã", "desc_refeicao": {"nm_alimento": "Aveia", "desc_alimento": "Aveia com leite e banana", "qtd_alimento": "1", "un_medida": "tigela", "calorias": "300", "proteinas": "15", "carboidratos": "50", "gorduras": "5"}}, {"nm_refeicao": "Almoço", "desc_refeicao": {"nm_alimento": "Frango", "desc_alimento": "Peito de frango grelhado com batata-doce", "qtd_alimento": "1", "un_medida": "peito", "calorias": "400", "proteinas": "30", "carboidratos": "40", "gorduras": "10"}}, {"nm_refeicao": "Janta", "desc_refeicao": {"nm_alimento": "Salmão", "desc_alimento": "Salmão grelhado com quinoa", "qtd_alimento": "1", "un_medida": "filé", "calorias": "350", "proteinas": "25", "carboidratos": "30", "gorduras": "15"}}]}', TO_DATE(SYSDATE, 'DD/MM/YYYY'), USER);
-INSERT INTO T_VB_DIETA VALUES(3, 'Manutenção de Peso', '{"desc_dieta": [{"nm_refeicao": "Café da manhã", "desc_refeicao": {"nm_alimento": "Iogurte Grego", "desc_alimento": "Iogurte grego com frutas vermelhas e granola", "qtd_alimento": "1", "un_medida": "pote", "calorias": "300", "proteinas": "15", "carboidratos": "40", "gorduras": "10"}}, {"nm_refeicao": "Almoço", "desc_refeicao": {"nm_alimento": "Quinoa", "desc_alimento": "Salada de quinoa com legumes e peito de frango", "qtd_alimento": "1", "un_medida": "porção", "calorias": "400", "proteinas": "20", "carboidratos": "50", "gorduras": "15"}}, {"nm_refeicao": "Janta", "desc_refeicao": {"nm_alimento": "Salmão", "desc_alimento": "Salmão assado com batata-doce e aspargos", "qtd_alimento": "1", "un_medida": "filé", "calorias": "350", "proteinas": "25", "carboidratos": "30", "gorduras": "18"}}]}', TO_DATE(SYSDATE, 'DD/MM/YYYY'), USER);
+INSERT INTO T_VB_DIETA VALUES(1, 'Emagrecimento', '{
+  "dieta_emagrecimento": {
+    "cafe_da_manha": [
+      {
+        "opcao": "Omelete de claras",
+        "calorias": 250,
+        "proteinas": 30,
+        "gorduras": 10,
+        "carboidratos": 10
+      },
+      {
+        "opcao": "Mingau de aveia",
+        "calorias": 300,
+        "proteinas": 10,
+        "gorduras": 6,
+        "carboidratos": 50
+      },
+      {
+        "opcao": "Iogurte grego",
+        "calorias": 200,
+        "proteinas": 20,
+        "gorduras": 8,
+        "carboidratos": 15
+      }
+    ],
+    "lanche_da_manha": [
+      {
+        "opcao": "Amêndoas",
+        "calorias": 150,
+        "proteinas": 6,
+        "gorduras": 12,
+        "carboidratos": 5
+      },
+      {
+        "opcao": "Fruta",
+        "calorias": 0,
+        "proteinas": 0,
+        "gorduras": 0,
+        "carboidratos": 0
+      },
+      {
+        "opcao": "Smoothie",
+        "calorias": 150,
+        "proteinas": 5,
+        "gorduras": 3,
+        "carboidratos": 30
+      }
+    ],
+    "almoco": [
+      {
+        "opcao": "Frango com quinoa",
+        "calorias": 400,
+        "proteinas": 30,
+        "gorduras": 10,
+        "carboidratos": 50
+      },
+      {
+        "opcao": "Salada de atum",
+        "calorias": 300,
+        "proteinas": 20,
+        "gorduras": 15,
+        "carboidratos": 20
+      },
+      {
+        "opcao": "Wrap integral",
+        "calorias": 350,
+        "proteinas": 25,
+        "gorduras": 12,
+        "carboidratos": 40
+      }
+    ],
+    "lanche_da_tarde": [
+      {
+        "opcao": "Cenoura com homus",
+        "calorias": 100,
+        "proteinas": 3,
+        "gorduras": 7,
+        "carboidratos": 10
+      },
+      {
+        "opcao": "Uvas com queijo cottage",
+        "calorias": 150,
+        "proteinas": 8,
+        "gorduras": 5,
+        "carboidratos": 20
+      },
+      {
+        "opcao": "Iogurte com chia",
+        "calorias": 200,
+        "proteinas": 10,
+        "gorduras": 8,
+        "carboidratos": 20
+      }
+    ],
+    "jantar": [
+      {
+        "opcao": "Salmão com batata-doce",
+        "calorias": 450,
+        "proteinas": 30,
+        "gorduras": 15,
+        "carboidratos": 40
+      },
+      {
+        "opcao": "Stir-fry com tofu",
+        "calorias": 350,
+        "proteinas": 20,
+        "gorduras": 15,
+        "carboidratos": 30
+      },
+      {
+        "opcao": "Frango com abobrinha e quinoa",
+        "calorias": 400,
+        "proteinas": 25,
+        "gorduras": 10,
+        "carboidratos": 50
+      }
+    ]
+  }
+}', TO_DATE(SYSDATE, 'DD/MM/YYYY'), USER);
+
+INSERT INTO T_VB_DIETA VALUES(2, 'Ganho de Músculo', '{
+  "dieta_musculo": {
+    "cafe_da_manha": [
+      {
+        "opcao": "Ovos mexidos com queijo e espinafre",
+        "calorias": 400,
+        "proteinas": 30,
+        "gorduras": 25,
+        "carboidratos": 15
+      },
+      {
+        "opcao": "Aveia com banana e amêndoas",
+        "calorias": 450,
+        "proteinas": 15,
+        "gorduras": 20,
+        "carboidratos": 60
+      },
+      {
+        "opcao": "Iogurte grego com granola e mel",
+        "calorias": 350,
+        "proteinas": 25,
+        "gorduras": 15,
+        "carboidratos": 30
+      }
+    ],
+    "lanche_da_manha": [
+      {
+        "opcao": "Shake de proteína com leite e banana",
+        "calorias": 300,
+        "proteinas": 35,
+        "gorduras": 8,
+        "carboidratos": 25
+      },
+      {
+        "opcao": "Muffin de aveia e proteína",
+        "calorias": 250,
+        "proteinas": 20,
+        "gorduras": 12,
+        "carboidratos": 20
+      },
+      {
+        "opcao": "Iogurte com amendoim e mel",
+        "calorias": 200,
+        "proteinas": 15,
+        "gorduras": 10,
+        "carboidratos": 15
+      }
+    ],
+    "almoco": [
+      {
+        "opcao": "Peito de frango grelhado com batata-doce",
+        "calorias": 600,
+        "proteinas": 40,
+        "gorduras": 10,
+        "carboidratos": 80
+      },
+      {
+        "opcao": "Arroz integral com carne magra moída",
+        "calorias": 550,
+        "proteinas": 30,
+        "gorduras": 15,
+        "carboidratos": 70
+      },
+      {
+        "opcao": "Salmão assado com quinoa",
+        "calorias": 700,
+        "proteinas": 45,
+        "gorduras": 30,
+        "carboidratos": 50
+      }
+    ],
+    "lanche_da_tarde": [
+      {
+        "opcao": "Amendoim ou castanhas",
+        "calorias": 250,
+        "proteinas": 10,
+        "gorduras": 20,
+        "carboidratos": 15
+      },
+      {
+        "opcao": "Barra de proteína",
+        "calorias": 200,
+        "proteinas": 20,
+        "gorduras": 8,
+        "carboidratos": 15
+      },
+      {
+        "opcao": "Iogurte com frutas e granola",
+        "calorias": 300,
+        "proteinas": 18,
+        "gorduras": 12,
+        "carboidratos": 25
+      }
+    ],
+    "jantar": [
+      {
+        "opcao": "Bife de contrafilé com batata assada",
+        "calorias": 700,
+        "proteinas": 45,
+        "gorduras": 35,
+        "carboidratos": 40
+      },
+      {
+        "opcao": "Macarrão integral com frango desfiado",
+        "calorias": 600,
+        "proteinas": 35,
+        "gorduras": 20,
+        "carboidratos": 75
+      },
+      {
+        "opcao": "Omelete recheado com queijo e vegetais",
+        "calorias": 500,
+        "proteinas": 30,
+        "gorduras": 25,
+        "carboidratos": 20
+      }
+    ]
+  }
+}', TO_DATE(SYSDATE, 'DD/MM/YYYY'), USER);
 
 
 
@@ -60,8 +296,8 @@ INSERT INTO T_VB_TREINO VALUES(3, 'Avançado', 'Treino avançado projetado para at
 
 -- TIPOS DE TREINOS
 INSERT INTO T_VB_TP_TREINO VALUES(1, 1, 'Foco em Superiores', 'Treino direcionado para o desenvolvimento do peitoral, com ênfase em exercícios e técnicas para aprimorar a força e a definição dessa região muscular', TO_DATE(SYSDATE, 'DD/MM/YYYY'), USER);
-INSERT INTO T_VB_TP_TREINO VALUES(2, 1, 'Foco em Inferiores', 'Treino dedicado ao fortalecimento dos músculos das costas, utilizando exercícios específicos para aprimorar a força e definição nessa região', TO_DATE(SYSDATE, 'DD/MM/YYYY'), USER);
-INSERT INTO T_VB_TP_TREINO VALUES(3, 1, 'Full Body', 'Treino abrangente para as pernas, visando o desenvolvimento equilibrado dos músculos das coxas, quadríceps, isquiotibiais e panturrilhas', TO_DATE(SYSDATE, 'DD/MM/YYYY'), USER);
+INSERT INTO T_VB_TP_TREINO VALUES(2, 1, 'Foco em Inferiores', 'Treino dedicado ao fortalecimento dos músculos das pernas, utilizando exercícios específicos para aprimorar a força e definição nessa região', TO_DATE(SYSDATE, 'DD/MM/YYYY'), USER);
+INSERT INTO T_VB_TP_TREINO VALUES(3, 1, 'Full Body', 'Treino abrangente para o corpo todo, visando o desenvolvimento equilibrado dos músculos e adaptar para começar a treinar com mais intensidade', TO_DATE(SYSDATE, 'DD/MM/YYYY'), USER);
 
 INSERT INTO T_VB_TP_TREINO VALUES(4, 2, 'Peitoral Intermediário', 'Treino focado para desenvolver o músculo do peitoral, com exercicios e técnicas que melhoram o desenvolvimento do músculo alvo', TO_DATE(SYSDATE, 'DD/MM/YYYY'), USER);
 INSERT INTO T_VB_TP_TREINO VALUES(5, 2, 'Costas Intermediário', 'Treino dedicado ao desenvolvimento dos músculos das costas, com exercícios visando aprimorar força e definição nessa região', TO_DATE(SYSDATE, 'DD/MM/YYYY'), USER);
